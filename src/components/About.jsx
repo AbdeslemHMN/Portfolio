@@ -3,7 +3,7 @@ import aboutPic from "../assets/about.jpg";
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-6xl text-center text-slate-400 hover:text-neutral-500 ">
+      <h1 className="my-20 text-6xl text-center text-slate-400 hover:text-neutral-500">
         About
         <span className="text-neutral-500"> Me</span>
       </h1>

@@ -23,7 +23,7 @@ const Hero = () => {
             <img
               src={profilePic}
               alt="Hammani Abdeslem"
-              className="hover:scale-110 transition-transform duration-500 rounded-full sm:rounded-lg lg:rounded-2xl"
+              className="w-3/4 lg:w-full rounded-2xl hover:scale-105 transition-transform duration-300"
             />
           </div>
         </div>
