@@ -1,7 +1,9 @@
+import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import logo from '../assets/logo.png';
+import logo from "../assets/logo.png";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -34,6 +36,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar ;
+export default Navbar;
