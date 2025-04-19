@@ -1,7 +1,3 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = "I am a passionate MERN stack developer. With hands-on experience in crafting robust and scalable web applications, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.";
 
@@ -10,32 +6,52 @@ export const ABOUT_TEXT = `I am a dedicated and versatile MERN stack developer w
 
 export const PROJECTS = [
   {
-    title: "Threads Clone",
-    image: project1,
+    title: "Real-Time Chat Application",
     description:
       "A social platform inspired by Threads, featuring interactive user profiles, posts, comments, and real-time updates.",
     technologies: ["React", "Express.js", "Node.js", "MongoDB"],
+    sourceCode: "https://github.com/AbdeslemHMN/Realtime-chat-application"
   },
   {
     title: "Real-Time Ideation Software",
-    image: project2,
     description:
       "A collaborative tool developed with a team of six during my second year at university, designed to enhance group ideation techniques like brainstorming and brainwriting in real-time.",
     technologies: ["React", "Tailwind", "convex" , "Tldraw" , "Liveblocks"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "E-commerce Website",
     description:
-      "A personal portfolio showcasing projects, skills, and contact information, built for an optimized user experience and responsiveness.",
-    technologies: ["React", "Tailwind"],
+      "Full-stack Django-based e-commerce platform following MVT architecture, with integrated online payments via Stripe.",
+    technologies: ["Django", "SQLite", "Stripe"],
+    sourceCode: "https://github.com/AbdeslemHMN/E-commerce-Website"
+  },
+  {
+    title: "ChatBot Backend",
+    description:
+      "An API for an intelligent chatbot built with Express and TypeScript, integrated with Gemini for natural language processing.",
+    technologies: ["Express.js", "TypeScript", "MongoDB", "Gemini API"],
+    sourceCode: "https://github.com/AbdeslemHMN/ChatBot-Backend"
+  },
+  {
+    title: "EHR Management System",
+    description:
+      "Backend system for managing electronic health records in hospitals, using Django REST Framework with MySQL and unit testing.",
+    technologies: ["Django REST Framework", "MySQL", "Python"],
+    sourceCode: "https://github.com/AbdeslemHMN/Gestion-du-DPI"
+  },
+  {
+    title: "Server Video Chat",
+    description:
+      "A peer-to-peer video communication app built with WebRTC, Express.js, and TypeScript.",
+    technologies: ["Express.js", "TypeScript", "WebRTC"],
+    sourceCode: "https://github.com/AbdeslemHMN/server-video-chat"
   },
   {
     title: "Nike Website Clone",
-    image: project4,
     description:
       "An e-commerce platform inspired by Nike, featuring product listing.",
     technologies: ["React", "Tailwind"],
+    sourceCode: "https://github.com/AbdeslemHMN/NikeWebsite"
   },
 ];
 

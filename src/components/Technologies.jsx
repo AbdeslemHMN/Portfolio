@@ -1,9 +1,8 @@
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiTailwindCssLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, SiDjango, SiPostgresql } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiExpress } from "react-icons/si";
 import { motion } from "motion/react";
 
 const Technologies = () => {
@@ -35,22 +34,6 @@ const Technologies = () => {
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiTailwindCssLine className="text-7xl text-cyan-400" />
-        </motion.div>
-        <motion.div
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
@@ -67,6 +50,31 @@ const Technologies = () => {
           <SiExpress className="text-7xl text-slate-100" />
         </motion.div>
         <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiDjango className="text-7xl text-green-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiTailwindCssLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        
+        <motion.div
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
@@ -81,6 +89,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <GrMysql className="text-7xl text-white" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPostgresql className="text-7xl text-blue-400" />
         </motion.div>
       </motion.div>
     </div>
